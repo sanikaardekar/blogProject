@@ -127,6 +127,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = 'blog-home'
 LOGIN_URL = 'login'
-MEDIA_ROOT = BASE_DIR.joinpath('media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 #os.path.join(BASE_DIR, 'media') # base_dir = specifies location of projects base directory
 MEDIA_URL = '/media/'
