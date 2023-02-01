@@ -69,7 +69,3 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
         if (self.request.user == post.author):
             return True
         return False
-
-
-def about(request):
-    return render(request, 'blogApp/about.html', {'title': 'About'})
