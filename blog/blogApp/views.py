@@ -3,6 +3,7 @@ from .models import post
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from django.contrib.auth import get_user_model
 # Create your views here.
 
 
@@ -69,3 +70,11 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
         if (self.request.user == post.author):
             return True
         return False
+
+# def showthis(request):
+
+#     all_users= get_user_model().objects.all()
+    
+#     context= {'allusers': all_users}
+        
+#     return render(request, 'blogApp/home.html', context)
