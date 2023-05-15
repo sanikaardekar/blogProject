@@ -1,4 +1,6 @@
 # blogProject
+Django Web Application<br>
+Features implemented :<br>
 Authentication system :<br>
   -> Login<br>
   -> Logout<br>
