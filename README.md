@@ -1,9 +1,9 @@
-# blogProject <br>
-Authentication system :
-  1. Login
-  2. Logout
-  3. Reset password <br>
+# blogProject
+Authentication system :<br>
+  -> Login<br>
+  -> Logout<br>
+  -> Reset password <br>
 Profile: <br>
-  1. View profile
-  2. Update profile <br>
+  -> View profile<br>
+  -> Update profile <br>
 Blogs/Articles: crud
