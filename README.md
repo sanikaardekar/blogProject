@@ -1,4 +1,4 @@
-# blogProject
+# Blog Website
 Django Web Application<br>
 Features implemented :<br>
 Authentication system :<br>
