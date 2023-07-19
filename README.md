@@ -1,11 +1,13 @@
 # Blog Website
 Django Web Application<br>
-Features implemented :<br>
-Authentication system :<br>
+Developed a secure authentication system and incorporated CRUD operations for the efficient posting of articles and blogs,
+ensuring a seamless user experience<br>
+Features implemented:<br>
+Authentication system:<br>
   -> Login<br>
   -> Logout<br>
-  -> Reset password <br>
 Profile: <br>
   -> View profile<br>
   -> Update profile <br>
-Blogs/Articles: crud
+Blogs/Articles: CRUD<br>
+
